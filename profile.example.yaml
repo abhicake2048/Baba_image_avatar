@@ -1,0 +1,15 @@
+# Copy this file to profile.yaml and review every field.
+subject_label: "the authorized subject"
+# Change both values to true only after confirming them.
+consent_confirmed: false
+adult_confirmed: false
+
+# These notes are sent to the text-only prompt enhancer. Do not put biometric
+# descriptions, private data, or secrets here.
+allowed_context_notes:
+  - "The subject may be shown in ordinary portrait, editorial, lifestyle, or cinematic scenes."
+
+identity_instructions:
+  - "Preserve the subject's facial identity, apparent age, skin characteristics, and distinctive features from the reference photographs."
+  - "The subject must be the only recognizable person in the image. Anonymous, out-of-focus background crowds are acceptable."
+
